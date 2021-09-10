@@ -1,0 +1,31 @@
+{
+  "name": "alkymist",
+  "version": "0.0.1",
+  "description": "Image Processing for Artistic Painting",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://KenPainter@github.com/KenPainter/Alkymist.git"
+  },
+  "keywords": [
+    "painting",
+    "art"
+  ],
+  "author": "Ken Downs",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KenPainter/Alkymist/issues"
+  },
+  "homepage": "https://github.com/KenPainter/Alkymist#readme",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "ts-node": "^10.2.1"
+  },
+  "dependencies": {
+    "@types/node": "^16.9.1"
+  }
+}
