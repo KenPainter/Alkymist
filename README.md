@@ -16,7 +16,9 @@ This utility accepts the name of a file as input, and generates a
 lot of output files.  For myself, I put those output files onto my
 phone, and use them as necessary at different stages of the painting.
 
-
+```
+ts-node index.ts --image=/path/to/image.ext
+```
 
 
 

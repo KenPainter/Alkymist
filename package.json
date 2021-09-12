@@ -4,7 +4,6 @@
   "description": "Image Processing for Artistic Painting",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +25,10 @@
     "ts-node": "^10.2.1"
   },
   "dependencies": {
-    "@types/node": "^16.9.1"
+    "@types/node": "^16.9.1",
+    "@types/yargs": "^17.0.2",
+    "colz": "^0.1.0",
+    "jimp": "^0.16.1",
+    "yargs": "^17.1.1"
   }
 }
